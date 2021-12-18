@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil</title>
+
+        <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1"> 
+        <title>Tugas Pengenalan Bootstrap</title>
+        <!-- menyisipkan Bootstrap -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <!-- menyisipkan Javascript -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16./umd/popper.min.js"></script>
+        <script src="https://maxcdn. bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        
+    <style>
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a,
+        .dropbtn {
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover,
+        .dropdown:hover .dropbtn {
+            background-color: #FCB61A;
+        }
+
+        .card {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            transition: 0.3s;
+            width: 100%;
+            margin-top: 20px;
+        }
+
+        .card:hover {
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+        }
+
+        .container {
+            margin: 0;
+            max-width: 90%;
+            margin: 10px auto;
+        }
+
+        .card_container {
+            padding: 2px 16px;
+        }
+
+        .card-menu {
+            width: 40%;
+            margin: 20px 20px;
+        }
+
+        .btn-yl {
+            border-radius: 12px;
+            background-color: #FCB61A;
+            /* Green */
+            border: none;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 10px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li><a href="./index.html">Back</a></li>
+        <li><a href="./profil.html">Profile</a></li>
+    </ul>
+    <div class="container">
+        <div class="card" style="display: flex;">
+            <div class="" style="flex:1">
+                <img src="./images/logo.jpeg" style="max-width: 500px; height: 100%; object-fit: cover;" alt="">
+            </div>
+            <div class="" style="flex:1">
+                <div class="" style="margin: 0px 20px;">
+                    <h1 style="margin-bottom: 0px;;">Rumah Makan Ampera</h1>
+                    <h5 style="color: #FCB61A; margin-top: 0px;">Rumah Makan Selera Anda</h5>
+                    <p>
+                        Rumah makan ampera merupakan rumah makan dengan menu-menu yang<BR>
+                        disukai masyarakat indonesia ,
+                        menu-menu disini mempunyai selera
+                        masakan
+                        Indonesia
+                        seperti kuah, gulai, lalapan,bakso.
+                    </p>
+                    <p>
+                        Berdiri untuk memenuhi projek matakuliah disain WEB,.
+                    </p>
+                    <p>
+                        Lokasi : Jln. Jendral Sudirman
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <br><br>
+            <h2>Pendiri Rumah Makan Ampera</h2>
+            <table class="table table-bordered table-striped table-hover">
+                <tr>
+                    <th>No.</th>
+                    <th>Nama</th>
+                    <th>Jabatan</th>
+                </tr>
+                <tr>
+                    <td>1.</td>
+                    <td>Khofifah Amanda</td>
+                    <td>Pendiri1</td>
+                </tr>
+                <tr>
+                    <td>2.</td>
+                    <td>Lian Mega</td>
+                    <td>Pendiri 2</td>
+                </tr>
+            </table>
+            <div class="card_container">
+                <h1 style="margin-bottom: 0px;;">Menu Kami</h1>
+                <h5 style="color: #FCB61A; margin-top: 0px;">Kami menyediakan menu menu yang dapat menggugah selera anda
+                </h5>
+                <div style="display: flex;">
+                    <div class="card card-menu" style="flex:1;">
+                        <img src="./images/makanan/ayam_goreng_sambal.jpg" alt="" style="width:100%">
+                        <div class="card_container">
+                            <h4><b>Ayam Goreng Sambal</b></h4>
+                            <button class="btn-yl">25.000</button>
+                        </div>
+                    </div>
+                    <div class="card card-menu" style="flex:1;">
+                        <img src="./images/makanan/ikan_bakar_sarden.jpg" alt="" style="width:100%">
+                        <div class="card_container">
+                            <h4><b>Ikan Bakar Sarden</b></h4>
+                            <button class="btn-yl">27.000</button>
+                        </div>
+                    </div>
+                    <div class="card card-menu" style="flex:1;">
+                        <img src="./images/makanan/perkedel_kentang.jpg" alt="" style="width:100%">
+                        <div class="card_container">
+                            <h4><b>Perkedel Kentang</b></h4>
+                            <button class="btn-yl">5.000</button>
+                        </div>
+                    </div>
+                    <div class="card card-menu" style="flex:1;">
+                        <img src="./images/makanan/ayam_saos_teriyaki.jpg" alt="" style="width:100%">
+                        <div class="card_container">
+                            <h4><b>Ayam Saos Teriyaki</b></h4>
+                            <button class="btn-yl">22.000</button>
+                        </div>
+                    </div>
+                </div>
+                <div style="display: flex;">
+                    <div class="card card-menu" style="flex:1;">
+                        <img src="./images/makanan/ikan_nila_bakar.jpg" alt="" style="width:100%">
+                        <div class="card_container">
+                            <h4><b>Ikan Nila Bakar</b></h4>
+                            <button class="btn-yl">25.000</button>
+                        </div>
+                    </div>
+                    <div class="card card-menu" style="flex:1;">
+                        <img src="./images/makanan/telur_dadar.jpg" alt="" style="width:100%">
+                        <div class="card_container">
+                            <h4><b>Telur Dadar</b></h4>
+                            <button class="btn-yl">10.000</button>
+                        </div>
+                    </div>
+                    <div class="card card-menu" style="flex:1;">
+                        <img src="./images/makanan/gulai_kepala_baung.jpg" alt="" style="width:100%">
+                        <div class="card_container">
+                            <h4><b>Gulai Kepala Baung</b></h4>
+                            <button class="btn-yl">37.000</button>
+                        </div>
+                    </div>
+                    <div class="card card-menu" style="flex:1;">
+                        <img src="./images/makanan/ayam_gulai.jpg" alt="" style="width:100%">
+                        <div class="card_container">
+                            <h4><b>Ayam Gulai</b></h4>
+                            <button class="btn-yl">24.000</button>
+                        </div>
+                    </div>
+                </div>
+                <div style="text-align: center;">
+                    <a href="./login.php" class="btn-yl" style="padding: 20px; font-size: 16px;">Pesan Sekarang</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
