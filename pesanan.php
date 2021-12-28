@@ -21,13 +21,13 @@
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.21/css/dataTables.bootstrap4.min.css">
 
-    <title>Bakso Solo Baru</title>
+    <title> pesanan Rumah Makan Ampera </title>
   </head>
   <body>
   <!-- Jumbotron -->
       <div class="jumbotron jumbotron-fluid text-center">
         <div class="container">
-          <h1 class="display-4"><span class="font-weight-bold">BAKSO SOLO BARU</span></h1>
+          <h1 class="display-4"><span class="font-weight-bold">Rumah Makan Ampera</span></h1>
           <hr>
           <p class="lead font-weight-bold">Silahkan Pesan Menu Sesuai Keinginan Anda <br> 
           Enjoy Your Meal</p>
