@@ -85,7 +85,7 @@
             <div class="card bg-dark text-white border-light">
               <img src="images/background/admin2.png" class="card-img" alt="Lihat Pesanan">
               <div class="card-img-overlay mt-5 text-center">
-               <a href="pesanan.php" class="btn btn-primary">LIHAT  PESANAN UER</a>
+               <a href="pesanan.php" class="btn btn-primary">LIHAT  PESANAN USER</a>
               </div>
             </div>
           </div>
