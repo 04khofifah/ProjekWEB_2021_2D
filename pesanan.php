@@ -63,7 +63,7 @@
       </nav>
   <!-- Akhir Navbar -->
 
-  <!-- Menu -->
+  <!-- Menu table dari bustrep  -->
     <div class="container">
       <div class="judul-pesanan mt-5">
        
@@ -71,7 +71,7 @@
         
       </div>
       <table class="table table-bordered" id="example">
-        <thead class="thead-light">
+        <thead class="thead-light"> <!--memberikan warna berbeda dengan body pada table-->
           <tr>
             <th scope="col">No.</th>
             <th scope="col">ID Pemesanan</th>
@@ -98,7 +98,7 @@
               <a href="detail_pesanan.php?id=<?php echo $result['id_pemesanan'] ?>" class="badge badge-primary">Detail</a>
              
 
-              <a href="clear_pesanan.php?id=<?php echo $result['id_pemesanan'] ?>" class="badge badge-danger">Hapus Data</a>
+              <a href="clear_pesanan.php?id=<?php echo $result['id_pemesanan'] ?>" class="badge badge-danger">Hapus Data</a> 
             </td>
           </tr>
           <?php $nomor++; ?>
