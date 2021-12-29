@@ -76,7 +76,7 @@
           ?>
 
           <?php foreach($result as $result) : ?>
-
+<!--col-md3 == memberikan grub setiap elemen-->
           <div class="col-md-3 mt-4">
             <div class="card brder-dark">
               <img src="upload/<?php echo $result['gambar'] ?>" class="card-img-top" alt="...">
